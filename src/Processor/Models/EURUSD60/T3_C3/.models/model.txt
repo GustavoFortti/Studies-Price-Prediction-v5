@@ -1,0 +1,5 @@
+{'type': 'LTSM', 'type_x': 'Data_x', 'type_y': 'Data_y', 
+'table': 'T3_C3', 'epochs': 1, 'currency':
+ 'EURUSD', 'time': '60', 'timesteps': 8, 'data': 
+ {'predict': {'columns': ['date_time', 'Close', 'high', 'Low'],
+  'extend': ['']}, 'target': {'columns': ['high', 'Low'], 'categorical': 3, 'description': ['0', '1', '-1']}, 'reduce': 1000}}
